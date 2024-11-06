@@ -42,6 +42,17 @@ Create 3 (or more) new files: `.env.development`, `.env.staging`, `.env.producti
     NODE_ENV=development
     JWT_SECRET_KEY=secret_key
 
+## Run Seeders
+
+```bash
+# Run initial seed (dummy data to database) (DEV)
+npm run run:seed:dev initial-seed.ts
+
+# Run any demo seed
+npm run run:seed:dev <file-name-inside-seeders-folder>
+# Exampe: npm run run:seed:dev demo-user.ts
+```
+
 ## Run
 
 ```bash
